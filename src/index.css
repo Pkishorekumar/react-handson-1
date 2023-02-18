@@ -1,0 +1,84 @@
+
+body{
+  background-image:linear-gradient(rgb(211, 245, 103),rgb(121, 204, 243),rgb(245, 158, 233));
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+}
+.App {
+  text-align: center;
+}
+
+.heading {
+  text-shadow: 3px 3px 3px rgb(107, 108, 108);
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.btn--func {
+  background-color: rgb(7, 196, 249);
+  margin-right: 30px;
+}
+.btn--func:hover {
+  opacity: 2;
+  background-color: rgb(145, 238, 238);
+ 
+}
+
+
+.btn--cls {
+  background-color: rgb(7, 196, 249);
+  margin-left: 30px;
+}
+.btn--cls:hover {
+  background-color: rgb(145, 238, 238);
+ 
+}
+
+.component-box {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+.functional-component,
+.class-component {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  
+}
+
+.functional-component {
+  background-color: aqua;
+  height: 250px;
+  width: 300px;
+  margin-left: 350px;
+}
+
+.class-component {
+  background-color: aqua;
+  height: 250px;
+  width: 300px;
+  
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+}
